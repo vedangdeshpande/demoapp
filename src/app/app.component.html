@@ -1,0 +1,51 @@
+<div>
+  <!-- <app-header></app-header> -->
+  <!-- <app-menu></app-menu> -->
+  <!-- <app-emp></app-emp> -->
+  <!-- <app-counter></app-counter> -->
+  <!-- <app-counter-component></app-counter-component> -->
+  <!-- <nav>
+    <a routerLink="/dashboard" class="btn btn-primary">Dashboard</a> &nbsp;&nbsp;&nbsp;
+    <a routerLink="/employees" class="btn btn-primary">Show Employees</a> &nbsp;&nbsp;&nbsp;
+    <a routerLink="/customers" class="btn btn-primary">Show Customers</a> &nbsp;&nbsp;&nbsp;
+    <a routerLink="/users" class="btn btn-primary">Users</a>
+  </nav> -->
+</div>
+
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand"> ACI Worldwide </a>
+    <div class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a routerLink="users" class="nav-link"> User List </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="addUser" class="nav-link"> Add User </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="feedback" class="nav-link"> Feedback </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="products" class="nav-link"> Products </a>
+      </li>
+    </div>
+  </nav>
+</div>
+
+<div class="container mt-3">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- <br/>
+<h2>Angular Pipes</h2>
+<p>Today's date is {{today | date:'dd/MM/yyyy'}}</p>
+<p>Netsalary for basic {{basicsalary}} is {{basicsalary | grossal}}</p>
+<p>{{amount | number: '5.3-3'}}</p>
+<p>{{amount | currency:"USD"}}</p>
+<p>{{amount | currency:"INR"}}</p>
+<p>Percentage: {{price | percent}}</p>
+<p>Greet : {{value | slice: 0:4 | uppercase}}</p>
+<p>{{"lucky winners" | titlecase}}</p>
+<ul>
+  <li *ngFor="let value of lucky_winners | slice: 1:3">{{value | lowercase}}</li>
+</ul> -->
