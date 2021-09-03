@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Parag Joshi",
+      "userage": 40,
+      "isAdult": true
+    },
+    {
+      "username": "Vedang Deshpande",
+      "userage": 22,
+      "isAdult": true,
+      "id": 2
+    },
+    {
+      "username": "Anurag Pathak",
+      "userage": 35,
+      "isAdult": true,
+      "id": 3
+    },
+    {
+      "username": "Soham Avasthi",
+      "userage": 23,
+      "isAdult": true,
+      "id": 4
+    }
+  ]
+}
